@@ -1,7 +1,39 @@
-<script src="game.js"></script>
-<script>
-	var game = new Game();
-	game.begin({
-		debug: true
-	});
-</script>
+<html>
+	<head>
+		<title>Battleships</title>
+		<style>
+			table {
+				border-collapse: collapse;
+				margin: 10px auto;
+			}
+
+			td {
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				border: 1px solid;
+				background: grey;
+			}
+
+			td:empty {
+				background: white;
+			}
+
+			div,
+			textarea {
+				width: 600px;
+				margin: 10px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="board"></div>
+		<div>
+			<textarea id="console" rows="3"></textarea>
+		</div>
+
+		<script src="battleships.js"></script>
+		<script src="run-in-browser.js"></script>
+	</body>
+</html>
