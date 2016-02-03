@@ -3,7 +3,7 @@
 
 	var debug = !!window.location.search.match(/debug/);
 
-	var game = new Game();
+	var game = new window.Game();
 	game.begin({
 		debug: debug
 	});
