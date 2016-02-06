@@ -219,5 +219,5 @@
 })();
 
 },{}],4:[function(require,module,exports){
-window.Game = require('./lib/game.js');
-},{"./lib/game.js":2}]},{},[4]);
+window.Game = require('./game.js');
+},{"./game.js":2}]},{},[4]);

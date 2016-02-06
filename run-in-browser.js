@@ -62,7 +62,7 @@
 			key = document.createElement('th');
 			key.textContent = (y + 1);
 			row.appendChild(key)
-			for(x = 0; x < 10; x++) {
+			for (x = 0; x < 10; x++) {
 				cell = document.createElement('td');
 				cell.textContent = game.board.grid[x][y].shipId;
 				row.appendChild(cell);

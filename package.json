@@ -1,0 +1,23 @@
+{
+  "name": "battleships",
+  "version": "0.0.1",
+  "description": "To run this, open `index.html` in browser (doesn't need to be document root or anything fancy).",
+  "main": "battleships.js",
+  "scripts": {
+    "build": "browserify lib/wrapper.js -o battleships.js",
+    "karma": "karma start tests/karma.conf.js",
+    "karma-single-run": "karma start tests/karma.conf.js --single-run",
+    "lint": "eslint lib/* run-in-browser.js",
+    "test": "npm run lint && npm run karma-single-run"
+  },
+  "author": "Michael Strutt",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-junit-reporter": "^0.3.8"
+  }
+}

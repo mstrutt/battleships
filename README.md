@@ -9,3 +9,7 @@ The result of your guess will be output to the JavaScript console (Ctrl + Shift 
 To see a bit more of the workings (or just to cheat) add `?debug` to the URL to reveal the ships locations on the grid (static representation), this also allows for the guess "auto" to be made, and each square will be guessed in turn until victory.
 
 To restart the game at any time, just refresh your browser window (ships randomly placed each time).
+
+## Build
+
+For the browser, the app has been bundled up using browserify, with a simple wrapper to expose `Game` to the window. To rebuild at any time, use `npm run build`
