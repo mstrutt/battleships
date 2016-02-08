@@ -82,7 +82,6 @@ describe('BattleshipsGame', function() {
 			expect(output.log).toEqual([]);
 			expect(output.error).toEqual([]);
 			expect(output.warn[output.warn.length - 1]).toBe('YOU WIN');
-
-		})
+		});
 	});
 });
