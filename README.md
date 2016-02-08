@@ -1,5 +1,7 @@
 # Battleships
 
+[ ![Codeship Status for mstrutt/battleships](https://codeship.com/projects/7cf1e510-b0de-0133-dc8f-3674ea8aa855/status?branch=master)](https://codeship.com/projects/132836)
+
 To run this, open `index.html` in browser (doesn't need to be document root or anything fancy).
 
 To play, enter guesses into the textarea in the form "A1" or "J10", and press enter. Threre are three ships plotted on a 10x10 grid, 1 battle ship (5 squares) and 2 destroyers (4 squares each).
